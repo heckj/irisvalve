@@ -6,7 +6,7 @@ api_version: 1
 default_expiration: '3650d'
 
 handlers:
-- url: /remote_api
+- url: /asdfh8dfh8ad8adfh
   script: $PYTHON_LIB/google/appengine/ext/remote_api/handler.py
   secure: optional
   login: admin

@@ -29,7 +29,7 @@ if on_production_server:
     SERVER_EMAIL = DEFAULT_FROM_EMAIL
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = '1234567890'
+SECRET_KEY = 'sd9v8y6235hoisuyvtwtet'
 
 #ENABLE_PROFILER = True
 #ONLY_FORCED_PROFILE = True
@@ -119,7 +119,7 @@ DATABASE_OPTIONS = {
     # Override remoteapi handler's path (default: '/remote_api').
     # This is a good idea, so you make it not too easy for hackers. ;)
     # Don't forget to also update your app.yaml!
-    #'remote_url': '/remote-secret-url',
+    'remote_url': '/asdfh8dfh8ad8adfh',
 
     # !!!Normally, the following settings should not be used!!!
 
