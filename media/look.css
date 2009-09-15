@@ -4,12 +4,7 @@ body {
   padding: 15px 20px;
 }
 
-#clickme {
-  background-color: #eeeeee;
-  border: 1px solid black;
-  padding: 3px;
-}
-
 #footer {
   clear: both;
 }
+
