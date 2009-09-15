@@ -1,0 +1,93 @@
+Game Mechanics
+==============
+
+Action Points
+-------------
+
+* minimum of six
+* typically sum of dexterity & endurance (trav std: Str,Dex,End,Int,Edu,Soc)
+* Any number of actions up to the max number of action points in a turn
+
+Turn
+----
+
+* a turn represents 15 seconds
+
+Actions
+=======
+
+movement:
+
+* 1 : move 1 square forward 
+* 2 : sidestep 1 square to side or rear (do not change facing)
+* 1 : turn 90°
+* 2 : run forward 3 squares (subject to DM -1 in defense while running)
+* (3x): evade (grants DM -3 when attacked until begin of next turn)
+* 4 : 1 square zero-g movement (handholds)
+* 3 : zero-G jump/shove - continues at rate of 1 square/2AP for rest of characters turn
+
+portals:
+
+* 1 : activate open sliding door or iris valve (wait 3 addt APs before entering)
+* 5 : open or close hatch
+* 1 : crossing an open hatch
+* 3 : crossing an open hatch in bulky gear (vacc suit, heavy armor)
+* 6 : breaking in sliding door (success on 2d6 < Str)
+* 6 : jamming a hatch with something in the hand-wheel
+* 6 : force open closed iris valve (success on 2d6 > 9+, DM+1 if Str 10+, DM+2 if Dex 10+, DM-3 if in vacc suit)
+* 1 : force open partially closed iris valve
+* 3 : dropped down vertical shaft 1 level
+* 5 : climbing up vertical shaft 1 level
+* all : taking a lift shaft 1 level
+* 2 : stairs up 1 square
+* 1 : stairs down 1 square
+* 2 : running down stairs 3 squares
+* 3 : running up stairs 3 squares
+* (all) : opening access plate w/ key
+* 6 : passing into/through access plate
+
+weapons:
+
+* 1 : draw gun or blade
+* 2 : reholster gun
+* 6 : sheath blade
+* 0 : drop gun or blade
+* 1d6 : pick up item on floor
+* (End) : place new magazine in weapon
+* all : reload revolver, snub pistol, shotgun
+* 2 : draw and knock an arrow (long or short bow)
+* 5 : draw and knock a bold (crossbow)
+* 2 : arm hand grenade
+* 4 : throw armed hand grenade (explodes 8AP later or end of player's turn)
+  * 2d6 < Dex to throw to target square (up to 10 away)
+  * if short, the grenade lands 1 square short per point missed
+
+
+carry:
+
+* all-(Str) : carry your equiv weight 1 square
+
+combat:
+
+* 8 (or max) : aimed attack against target
+* 12 (or max) : aimed attack against target (full automatic or energy weapon)
+* 4 : snap attack against any target in range
+* 6 : snap attack against any target in range (full automatic or energy weapon)
+* all : cover attack, treated as evading (DM -3 when attacked)
+  * determine a target line of sight (range+visible) - any enemy entering that line of sight is subject to "aimed shot" attack. Any number of shots are OK subject to ammo availability
+  * only one attack is enabled against any enemy under the "cover attack"
+
+Range
+=====
+
+* close: adjacent square
+* short: 2 squares
+* medium: 3 to 33 squares
+* long: 34 to 166 squares
+
+Partitions and Walls
+====================
+
+* 100 damage points will open a hole in an interior wall sufficient to pass
+* 100 damage points will breach (loose atmospheric integrity) a bulkhead
+* 1000 damage points will open a hole in a bulkhead sufficient to pass
