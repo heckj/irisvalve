@@ -61,6 +61,7 @@ weapons:
 * 4 : throw armed hand grenade (explodes 8AP later or end of player's turn)
   * 2d6 < Dex to throw to target square (up to 10 away)
   * if short, the grenade lands 1 square short per point missed
+* 1 : switch between full and semi-automatic fire
 
 
 carry:
@@ -71,8 +72,8 @@ combat:
 
 * 8 (or max) : aimed attack against target
 * 12 (or max) : aimed attack against target (full automatic or energy weapon)
-* 4 : snap attack against any target in range
-* 6 : snap attack against any target in range (full automatic or energy weapon)
+* 4 : snap attack against any target in range (DM-2 to attack)
+* 6 : snap attack against any target in range (full automatic or energy weapon) (DM-2 to attack)
 * all : cover attack, treated as evading (DM -3 when attacked)
   * determine a target line of sight (range+visible) - any enemy entering that line of sight is subject to "aimed shot" attack. Any number of shots are OK subject to ammo availability
   * only one attack is enabled against any enemy under the "cover attack"
@@ -91,3 +92,53 @@ Partitions and Walls
 * 100 damage points will open a hole in an interior wall sufficient to pass
 * 100 damage points will breach (loose atmospheric integrity) a bulkhead
 * 1000 damage points will open a hole in a bulkhead sufficient to pass
+
+Combat
+======
+
+* any time an enemy moves into a square adjecent, the player may make a snap-attack - subject to ammo only, no AP needed
+
+Endurance
+---------
+
+* a character can make up to (End) ordinary blows/swings with melee attacks
+* once through ordinary blows, additional melee attacks are "weakened" (-DM to attack)
+* a character may elect to make a weakened blow/swing to save his "ordinary" melee attacks
+
+Zero-G attack
+--------------
+
+Roll 10+ on 2d6 to maintain control
+
+* -2 : firing snub pistol or accelerator rifle 
+* -0 : firing laser
+* -3 : firing crossbow
+* -4 : firing other firearm
+* -6 : melee strike
+* +5 : using handhold (reduces dexterity by 4)
+* +2/lvl : wearing battle dress
+* +2 : if Dex 9+
+* +4 : if Dex 11+
+
+If loose control, spend 6 AP to attempt to regain control using above DM's
+
+Vaccum Damage
+-------------
+
+* unprotected characters take 2D wounds per turn until death
+
+Load
+====
+
+A player can carry up to their Str in kg of load (weapons, ammo, etc)
+Str, Dex, and End all -1, but allow carry up to 2x Str in kg
+Military only: Str, Dex, and End all -2, but allow carry up to 3x Str in kg
+
+Thrown blade:
+* 4 ap
+range - up to 5 squares
+roll 18+ on 2d6 to hit
+* + throwers Dex
+* - range in squares to target
+* + personal expertise in weapon
+wounds: 2D
