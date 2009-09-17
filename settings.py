@@ -25,7 +25,7 @@ COMBINE_MEDIA = {
 
 # Change your email settings
 if on_production_server:
-    DEFAULT_FROM_EMAIL = 'bla@bla.com'
+    DEFAULT_FROM_EMAIL = 'joseph.heck@gmail.com'
     SERVER_EMAIL = DEFAULT_FROM_EMAIL
 
 # Make this unique, and don't share it with anybody.
@@ -44,7 +44,7 @@ LANGUAGE_CODE = 'en'
 
 # Restrict supported languages (and JS media generation)
 LANGUAGES = (
-    ('de', 'German'),
+#    ('de', 'German'),
     ('en', 'English'),
 )
 
@@ -59,9 +59,9 @@ MIDDLEWARE_CLASSES = (
     'ragendja.middleware.ErrorMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     # Django authentication
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    #'django.contrib.auth.middleware.AuthenticationMiddleware',
     # Google authentication
-    #'ragendja.auth.middleware.GoogleAuthenticationMiddleware',
+    'ragendja.auth.middleware.GoogleAuthenticationMiddleware',
     # Hybrid Django/Google authentication
     #'ragendja.auth.middleware.HybridAuthenticationMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -72,8 +72,8 @@ MIDDLEWARE_CLASSES = (
 )
 
 # Google authentication
-#AUTH_USER_MODULE = 'ragendja.auth.google_models'
-#AUTH_ADMIN_MODULE = 'ragendja.auth.google_admin'
+AUTH_USER_MODULE = 'ragendja.auth.google_models'
+AUTH_ADMIN_MODULE = 'ragendja.auth.google_admin'
 # Hybrid Django/Google authentication
 #AUTH_USER_MODULE = 'ragendja.auth.hybrid_models'
 
@@ -102,7 +102,7 @@ INSTALLED_APPS = (
     'appenginepatcher',
     'ragendja',
     'myapp',
-    'registration',
+    #'registration',
     'mediautils',
 )
 
