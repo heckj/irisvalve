@@ -101,7 +101,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'appenginepatcher',
     'ragendja',
-    'myapp',
+    'irisvalve',
     #'registration',
     'mediautils',
 )
