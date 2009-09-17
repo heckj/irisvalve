@@ -3,6 +3,7 @@ To Do
 
 * create and store a map
   * how to do this with images as well as tiles?
+* write some damn tests to verify this stuff!!!
 * put together simple data objects for players, NPC's, and maybe objects
 * create a view to show the map
 * create a view to enable the player to move
