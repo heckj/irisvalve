@@ -7,7 +7,7 @@ The game itself is turn based, and therefore relatively free of the restrictions
 
 The state of any given game will be represented in the model structure supported by IrisValve - a table structure within Google, etc. A completely in-memory game using a memcache service to maintain state is also potential.
 
-The game is based loosely on the 1979 board game [Snapshot](http://traveller.wikia.com/wiki/Snapshot "Snapshot") by [GDW](http://traveller.wikia.com/wiki/Game_Designers_Workshop "Game Designer's Workshop"). 
+The game is based loosely on the 1979 board game [Snapshot](http://traveller.wikia.com/wiki/Snapshot "Snapshot") and [Azhanti High Lightning](http://traveller.wikia.com/wiki/Azhanti_High_Lightning "Azhanti High Lightning") by [GDW](http://traveller.wikia.com/wiki/Game_Designers_Workshop "Game Designer's Workshop"). 
 
 The player represents an individual on a starship (or other close environment) in a science fiction setting. The player has action points to spend moving or fighting, the available players taking turns in the combat based on total number of action points available to them. High "AP" players get offered turns first, but can "defer" those turns until later.
 

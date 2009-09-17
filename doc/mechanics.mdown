@@ -142,3 +142,16 @@ roll 18+ on 2d6 to hit
 * - range in squares to target
 * + personal expertise in weapon
 wounds: 2D
+
+Azhanti High Lightning has similiar, but different, rule sets here.
+
+Turns are 15 seconds.
+AP's a 6 each phase, and the phases are broken into:
+1. covering fire
+2. movement
+3. aimed fire
+4. snap shots
+
+characters choosing to do covering fire can't also do movement... or can they? seems they can by the rules.
+
+the damage mechanism is *much* simpler as well - trimmed down the "light", "serious", and "dead"
