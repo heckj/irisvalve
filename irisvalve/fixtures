@@ -1,0 +1,1 @@
+[{"pk": "aglpcmlzdmFsdmVyFAsSDmlyaXN2YWx2ZV90aWxlGAIM", "model": "irisvalve.tile", "fields": {"image": "http://www.foo.com/open.png", "name": "open"}}, {"pk": "aglpcmlzdmFsdmVyFAsSDmlyaXN2YWx2ZV90aWxlGAMM", "model": "irisvalve.tile", "fields": {"image": "http://www.foo.com/blocked.png", "name": "blocked"}}]
