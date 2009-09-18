@@ -1,19 +1,23 @@
 # -*- coding: utf-8 -*-
-from django.db.models import signals
 from django.test import TestCase
 from google.appengine.ext import db
-from datetime import datetime
 from irisvalve.models import Tile, MapLocation
 
-class SampleTest(TestCase):
+class TileTest(TestCase):
 	def test_nothing(self):
 		self.assertTrue(1)
+	def setUp(self):
+		Tile(image='http://www.foo.com/open.png',name='open').put()
+		Tile(image='http://www.foo.com/blocked.png',name='blocked').put()
+	def test_setup(self):
+		self.assertEquals(2,len(Tile.all()))
+		self.assertEquals(1,len(Tile.all().filter('name =','open')))
+		self.assertEquals(1,len(Tile.all().filter('name =','blocked')))
+		open = Tile.all().filter('name =','open')[0]
+		MapLocation(tile=open,x=0,y=0).put()
+		self.assertEquals(1,len(MapLocation.all()))
 
-class SampleTest2(TestCase):
-	def test_nothing2(self):
-		self.assertTrue(1)
-
-class TileTest(TestCase):
+class BasicTileTest(TestCase):
 	def test_basic_create(self):
 		#clear all tiles
 		for obj in Tile.all():

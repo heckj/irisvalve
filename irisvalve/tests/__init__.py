@@ -1,3 +1,3 @@
-from irisvalve.tests.modeltests import SampleTest, SampleTest2, TileTest
+from irisvalve.tests.modeltests import BasicTileTest, TileTest
 
 __all__ = ["modeltests"]
