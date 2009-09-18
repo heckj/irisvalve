@@ -27,3 +27,15 @@ class BasicTileTest(TestCase):
 		self.assertEquals(1,len(Tile.all()))
 		x.delete()
 		self.assertEquals(0,len(Tile.all()))
+
+class MapTileTest(TestCase):
+	def setUp(self):
+		open = Tile(image='http://www.foo.com/open.png',name='open')
+		open.put()
+		blocked = Tile(image='http://www.foo.com/blocked.png',name='blocked')
+		blocked.put()
+		for x in range(10):
+			for y in range(10):
+				MapLocation(tile=open,x=x,y=y).put()
+	def test_setup(self):
+		self.assertEquals(100,len(MapLocation.all()))
